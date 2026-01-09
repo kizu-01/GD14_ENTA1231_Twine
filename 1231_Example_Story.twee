@@ -12,15 +12,24 @@
 }
 
 
-:: Linked Text to Another Passage {"position":"975,550","size":"100,100"}
+:: Quack? {"position":"1200,500","size":"100,100"}
 
 
 
-:: Starting Point {"position":"975,425","size":"100,100"}
-(text-colour:green)[''Bojinki'']
+:: Starting Point {"position":"1000,500","size":"100,100"}
+A small silhouette journeyed through a tall mountain, taking wide strides with its tiny legs.
+Now reaching at the top of the destination, the little creature meets a bright light facing it.
 
-(text-colour:yellow)[//Imma put sum dirt in ur eye//]
+"Who dares step foot into my blessed land?" A stern, demanding voice asserted through the atmosphere, startling the little one.
 
-This is plain text that will appear as part of the story.
+"Quack?"
+"Quack."
+"Quack!"
 
-[[Linked Text to Another Passage]] 
+The light then overpowered the silhouette and revealed a small yet daring duck responding back to the bright glow, unfazed with the possible consequences.
+
+"I don't allow trespassers without bearing offerings for me."
+
+What would you, a mere duck, do to appease the Bojinki mountain deity?
+
+[[Quack?]] 
