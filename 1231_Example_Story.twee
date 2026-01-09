@@ -1,0 +1,26 @@
+:: StoryTitle
+1231_Example_Story
+
+
+:: StoryData
+{
+  "ifid": "3EC254FB-1A93-4F8B-81E5-4D7636AD0EFE",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Starting Point",
+  "zoom": 1
+}
+
+
+:: Linked Text to Another Passage {"position":"975,550","size":"100,100"}
+
+
+
+:: Starting Point {"position":"975,425","size":"100,100"}
+(text-colour:green)[''Bojinki'']
+
+(text-colour:yellow)[//Imma put sum dirt in ur eye//]
+
+This is plain text that will appear as part of the story.
+
+[[Linked Text to Another Passage]] 
