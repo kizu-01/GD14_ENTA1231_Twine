@@ -12,24 +12,63 @@
 }
 
 
-:: Quack? {"position":"1200,500","size":"100,100"}
+:: Continue listening {"position":"1400,500","size":"100,100"}
+"I don't allow trespassers without bearing offerings for me."
 
+The higher being declared authoritatively, stern with its demands.
+
+What would you, a mere duck, do to appease the Bojinki mountain deity?
+
+[[Offer object]]
+[[Offer emotionally]]
+[[Don't offer anything]]
+
+
+:: Don't offer anything {"position":"1600,700","size":"100,100"}
+
+
+
+:: Offer emotionally {"position":"1600,500","size":"100,100"}
+
+
+
+:: Offer object {"position":"1600,300","size":"100,100"}
+
+
+
+:: Quack! {"position":"1200,700","size":"100,100"}
+The light then overpowered the silhouette and revealed a small yet daring duck responding back to the bright glow, unfazed with the possible consequences.
+
+The deity seemed displeased.
+
+[[Continue listening]]
+
+
+:: Quack. {"position":"1200,500","size":"100,100"}
+The light then illuminated the silhouette and revealed a small yet solemn duck acknowledging the bright glow, composed regardless of the possible consequences.
+
+The deity seemed nonplussed by the little one's reaction.
+
+[[Continue listening]]
+
+
+:: Quack? {"position":"1200,300","size":"100,100"}
+The light then showered the startled silhouette and revealed a small yet frightened duck reacting to the bright glow, uncertain with the possible consequences.
+
+The deity seemed unamused.
+
+[[Continue listening]]
 
 
 :: Starting Point {"position":"1000,500","size":"100,100"}
 A small silhouette journeyed through a tall mountain, taking wide strides with its tiny legs.
+
 Now reaching at the top of the destination, the little creature meets a bright light facing it.
 
 "Who dares step foot into my blessed land?" A stern, demanding voice asserted through the atmosphere, startling the little one.
 
-"Quack?"
-"Quack."
-"Quack!"
-
-The light then overpowered the silhouette and revealed a small yet daring duck responding back to the bright glow, unfazed with the possible consequences.
-
-"I don't allow trespassers without bearing offerings for me."
-
-What would you, a mere duck, do to appease the Bojinki mountain deity?
-
 [[Quack?]] 
+[[Quack.]]
+[[Quack!]]
+
+
