@@ -1,0 +1,251 @@
+:: StoryTitle
+1231_Example_Story
+
+
+:: StoryData
+{
+  "ifid": "3EC254FB-1A93-4F8B-81E5-4D7636AD0EFE",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "Event": "green",
+    "Outcome": "red",
+    "Outro": "purple",
+    "Intro": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: Begin exploring the mountain [Event] {"position":"1000,500","size":"100,100"}
+As the small figure arrived at the peak, a light suddenly welcomes the little one's eyes and fills the sky with life and clarity.
+
+Soon enough, a voice echoes across the atmosphere.
+
+“Who dares step foot into my blessed land?”
+
+The light shifts and reveals a small duck standing alone on its little feet.
+
+How will the duck respond back?
+
+[[Quack?]] 
+[[Quack.]]
+[[Quack!]]
+
+
+:: Continue listening [Event] {"position":"1400,500","size":"100,100"}
+The deity floats higher above the duck, the little one focusing its sight on the higher being.
+
+“Standing before you is the divine protector of this sacred mountain of utmost purity..."
+
+The light suddenly transforms into a majestic human form of a masculine figure, draped in fine pearl silk and bedazzled with striking diamonds.
+
+"I am Bojinki, the celestial guardian of this peak. This place I hold dear does not allow trespassers without offerings worthy of this land.”
+
+The ground trembles as it soon reveals a stone altar, sculpted in a form of an angel with its hands cupped together.
+
+“One must offer something of value… or face my judgment.”
+
+What would you, a mere duck, do to appease the mountain deity?
+
+[[Gift a sacrificial offering]]
+[[Offer a sentiment]]
+[[Don't offer anything]]
+
+
+:: Don't offer anything [Outcome] {"position":"1600,700","size":"100,100"}
+The duck steps back and offers nothing.
+
+The altar turned dark.
+
+“You give nothing at all…” the deity murmurs.
+
+The air feels tense. The atmosphere grows darker as the deity lifts the duck up in the air with unseen force.
+
+"You bear no shame at a place where you don't belong."
+
+Bojinki then drops the small creature roughly to the ground. The duck feels a slight pain from the short fall, but slowly stands back up, shaking the dust off from its feathers.
+
+The deity remains displeased and still doesn’t move from his position. In this regard, the little one feels that it's still not the right time to leave for now.
+
+[[Step away from the altar]]
+
+
+:: Gift a sacrificial offering [Outcome] {"position":"1600,300","size":"100,100"}
+The duck plucks one of its feathers and places it on the altar.
+
+The stone absorbs it, glowing softly as the offering vanishes.
+
+“You give what you can hold,” the deity says.
+
+The air hums quietly.
+
+The deity still seems to show no signs of leaving but is amused with the offering given. Regardless, the duck senses that it's still not the right time to leave for now.
+
+[[Step away from the altar]] 
+
+
+:: Hear the final judgment [Outro] {"position":"2200,500","size":"100,100"}
+“Your journey ends here,” the deity says.
+
+“But what you revealed will follow you.”
+
+The mountain soon grows quiet as Bojinki slowly fades out of sight.
+
+Now greeted by silence once more, the duck feels different, changed by what it has done.
+
+At its chest, something appears faintly. Whether it was fear, courage, kindness, or nothing, the choices it made now belong to it.
+
+Slowly, the duck turns and begins its long walk back down the mountain, carrying the weight of its journey into the world beyond.
+
+''The End''
+
+
+:: Move forward without hesitation [Outcome] {"position":"2000,500","size":"100,100"}
+The duck walks forward without hesitation till the end. The mist parts quickly before it.
+
+“You do not hesitate…” the deity observes.
+
+Bojinki raises his hand, and a glowing sun-shaped crystal made of radiant garnet, forms in his grasp.
+
+“Vivid like the sun, you act before doubt could take place whatever it may be.”
+
+He stated, as he guides the floating crystal towards you. 
+
+“Take this. It will remind you that boldness shapes the world.”
+
+The crystal floats toward the duck and lands into its feathers, pulsing actively with light like flames.
+
+The bridge soon dissolves beneath the duck’s feet, returning it safely to the summit.
+
+The duck stands once more before the glowing deity.
+
+“I have seen enough.”
+
+[[Hear the final judgment]]
+
+
+:: Offer a sentiment [Outcome] {"position":"1600,500","size":"100,100"}
+The duck closes its eyes and offers a deep feeling from within.
+
+It shares its thoughts as the deity absorbs them. Nothing but sincere gratitude could be heard from the small creature. Words of honor, joy, and fulfillment, for being allowed to witness such divine presence and to stand upon its sacred ground.
+
+The altar glows brighter.
+
+“You give what you feel,” Bojinki says quietly.
+
+A gentle warmth spreads through the summit.
+
+The deity seems pleased with the offered sentiment, yet still shows no signs of leaving. Despite the outcome, the little one feels that it's still not the right time to leave for now.
+
+[[Step away from the altar]] 
+
+
+:: Quack! [Outcome] {"position":"1200,700","size":"100,100"}
+The duck quacks loudly as it daringly steps one foot forward, holding its ground.
+The light flares brighter.
+
+“You dare speak loudly in this space?” the deity says. “Don't even think about challenging the mountain.”
+
+The mountain rumbles slightly as the deity speaks in an intimidating voice. The deity seems skeptical with the duck's shameless nature.
+
+[[Continue listening]]
+
+
+:: Quack. [Outcome] {"position":"1200,500","size":"100,100"}
+The duck makes a steady, quiet quack.
+
+The deity tilts its glowing form, feeling peculiar with the small creature's behavior.
+
+“You do not tremble, little one...” it says. “Interesting.”
+
+The wind slows down, as if pausing itself to listen further. The deity appears intrigued with the duck's calm nature.
+
+[[Continue listening]]
+
+
+:: Quack? [Outcome] {"position":"1200,300","size":"100,100"}
+The duck lets out a small, uncertain quack.
+
+The glowing being looks down, examining the frightened creature.
+
+“Fear seems to cling onto you,” the deity says, leaning closer. “It looks like you don't expect to survive this encounter… but deal with the consequences.”
+
+The air grows heavier, as if the mountain presses itself within. The deity seems doubtful of the duck's meek nature.
+
+[[Continue listening]]
+
+
+:: Refuse to cross [Outcome] {"position":"2000,700","size":"100,100"}
+The duck is reluctant to cross the bridge, daunted of what lies on the other side.
+
+“Poor little life form…” the deity observes, disappointed by the duck’s hesitance.
+
+Bojinki lifts himself up and looks down on the small creature. 
+
+“Your sense of purpose, empty like your spirit. You stand before possibility yet choose to do nothing with it.”
+
+The deity lowers his hand. No object forms within his grasp and no light reaches for the duck.
+
+“I grant nothing to those who refuse to walk,” he says plainly. “For even failure requires motion.”
+
+The glowing bridge remains before the duck, waiting, as mist continues to float across the surface.
+
+The duck stays where it stands, untouched by blessing or burden, left only with the quiet weight of what might have been.
+
+“I have seen enough.”
+
+[[Hear the final judgment]] 
+
+
+:: Start [Intro] {"position":"800,500","size":"100,100"}
+In the world of Panini, lies a vast area of mountain ranges, each characterized in their own unique shapes and colors.
+
+Among them stood the tallest one of all. Upon closer inspection, reveals a small silhouette journeying through a towering mountain path, its tiny feet waddling in wide strides on cold stone dust. 
+
+Cold wind brushes against its soft feathers as the path grows steeper with every step. But at last, the little creature reaches the summit.
+
+[[Begin exploring the mountain]] 
+
+
+:: Step away from the altar [Event] {"position":"1800,500","size":"100,100"}
+The altar gradually sinks into the ground, the stone beneath shaking once more.
+
+“Very well,” the deity says. “One more test remains.”
+
+The mountain begins to shift.
+
+“Let's see how you walk your path.”
+
+The ground ahead cracks open, revealing a narrow glowing bridge. Mist swirls around it.
+
+“This path will reveal what you are,” the deity says.
+
+[[Tread carefully]]
+[[Move forward without hesitation]]
+[[Refuse to cross]]
+
+
+
+:: Tread carefully [Outcome] {"position":"2000,300","size":"100,100"}
+The duck takes slow, careful steps. The mist moves gently around it as the little one reaches the end.
+
+“You move with caution…” the deity observes.
+
+Bojinki then extends his hand. From his palm forms a small, feather-shaped charm made of clear quartz, glowing soft silver light.
+
+“Gentle like a feather, you handle things with respect on what you cannot yet understand.”
+
+He stated, as he guides the floating charm towards you.
+
+“Take this. It will remind you that moving slowly is not weakness.”
+
+The charm drifts down and rests against the duck’s chest, warm and reassuring.
+
+The bridge soon dissolves beneath the duck’s feet, returning it safely to the summit.
+The duck stands once more before the glowing deity.
+
+“I have seen enough.”
+
+[[Hear the final judgment]] 
