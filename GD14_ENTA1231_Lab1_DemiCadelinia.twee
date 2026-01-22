@@ -101,16 +101,17 @@ The light softens, bathing the summit in warm golden glow.
 "Your journey ends here," Bojinki says, his voice echoing like a gentle wind over the peak.
 
 (if: $firstChoice is "Question")[Your cautious steps, timid yet sincere, guided the choices you made, proving that even careful hearts are seen and valued.]
-(else-if: $firstChoice is "Direct")[Yes]
-(else-if: $firstChoice is "Loud")[Lmao]
+(else-if: $firstChoice is "Direct")[Your steady and composed nature kept your path clear and allowed your offerings to shine with meaning.]
+(else-if: $firstChoice is "Loud")[Your boldness left a daring yet mindful impression, and it has maintained its mark here.]
 
-(if: $secondChoice is "Gift")[Yay]
-(else-if: $secondChoice is "Sentiment")[Yippee]
+(if: $secondChoice is "Gift")[The feather you offered glows faintly in your memory, a testament of giving what you hold dear.]
+(else-if: $secondChoice is "Sentiment")[The sincere feeling you shared warms the summit still, a reminder how thoughtfulness can be as powerful as any gift.]
 
-(if: $thirdChoice is "Careful")[Woah]
-(else-if: $thirdChoice is "Brave")[Nice]
+(if: $thirdChoice is "Careful")[The charm of silver quartz rests on your chest, proof that patience and care are recognized.]
+(else-if: $thirdChoice is "Brave")[The sun-shaped garnet crystal pulses like the heartbeat of a fire, honoring your courage and decisive steps forward.]
 
 Slowly, the duck turns and begins its long walk back down the mountain, carrying the weight of its journey into the world beyond.
+
 ''The End''
 ]
 
@@ -119,20 +120,21 @@ The light dims slightly, the mountain quiet but unyielding.
 
 "Your journey ends here," Bojinki says, his voice carrying curiosity and restraint.
 
-(if: $firstChoice is "Question")[Ehe]
-(else-if: $firstChoice is "Direct")[Uh-huh]
-(else-if: $firstChoice is "Loud")[Ayo]
+(if: $firstChoice is "Question")[Your small, hesitant steps shaped what little recognition you gained.]
+(else-if: $firstChoice is "Direct")[Your calm nature brought some clarity, yet it could not fully overcome the missed opportunities.]
+(else-if: $firstChoice is "Loud")[Even your boldness wasn't proven enough by the choices you did not fully commit to.]
 
-(if: $secondChoice is "Gift")[Noice]
-(else-if: $secondChoice is "Sentiment")[Okay]
-(else-if: $secondChoice is "Nothing")[Eh]
+(if: $secondChoice is "Gift")[While it's sincere of you offering your feather, it does not follow through with decisive action.]
+(else-if: $secondChoice is "Sentiment")[The feeling you shared is a light filled with joy, yet without thorough courage to cross the path, it can't shine in its full potential.]
+(else-if: $secondChoice is "Nothing")[Refusing to offer anything leaves your effort incomplete, a reminder that some acts are required to earn recognition.]
 
-(if: $thirdChoice is "Careful")[Ooh]
-(else-if: $thirdChoice is "Brave")[Eyy]
+(if: $thirdChoice is "Careful")[You walked the bridge carefully without full commitment, and the mountain only grants it partial acknowledgement.]
+(else-if: $thirdChoice is "Brave")[You acted bravely, yet some hesitation of your choices kept you away from the final reward.]
 
 The duck feels the weight of choices partially made, the echo of both effort and hesitation pressing gently on its feathers.
 
 The little one begins to walk back down the mountain, carrying both achievement and uncertainty, aware that the mountain's full blessing remains unclaimed.
+
 ''The End''
 ]
 
@@ -141,18 +143,19 @@ The summit grows cold and silent, a chill brushing against every feather.
 
 "Your journey ends here," Bojinki implies, a hint of disappointment in his words.
 
-(if: $firstChoice is "Question")[Aurnaur]
-(else-if: $firstChoice is "Direct")[Oof]
-(else-if: $firstChoice is "Loud")[Yikes]
+(if: $firstChoice is "Question")[Even timid beginnings cannot excuse the lack of action at the final step.]
+(else-if: $firstChoice is "Direct")[Calmness alone does not suffice when choices remain unmade.]
+(else-if: $firstChoice is "Loud")[Boldness without follow-through achieves nothing but audacity if the path is left abandoned.]
 
-(if: $secondChoice is "Nothing")[GG]
-(else-if: $secondChoice is "Gift" or $secondChoice is "Sentiment")[Sold]
+(if: $secondChoice is "Nothing")[Offering nothing left no mark upon the mountain, only showing the lesser quality of one's heart for others.]
+(else-if: $secondChoice is "Gift" or $secondChoice is "Sentiment")[Despite earlier offerings, your refusal to step forward negates any reward.]
 
-(if: $thirdChoice is "Scared")[L moment]
+(if: $thirdChoice is "Scared")[The bridge remained uncrossed and no blessing reaches you. The weight of hesitation now lingers as a silent reminder.]
 
 The duck stands where it froze, staring at the glowing bridge that could have granted a blessing or wisdom.
 
 Finally, the little one turns slowly, waddling back down the mountain carrying lessons of lacking action, absence, and unrealized potential that will remain a shadow of the paths it never took.
+
 ''The End''
 ]
 
