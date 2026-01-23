@@ -172,9 +172,9 @@ The light shifts and reveals a small duck standing alone on its little feet.
 
 How will the duck respond back?
 
-[[Quack? |Question]] 
-[[Quack. |Direct]]
-[[Quack! |Loud]]
+[[Quack? (Worried) |Question]] 
+[[Quack. (Composed) |Direct]]
+[[Quack! (Proud) |Loud]]
 
 
 :: Event 2 [Event] {"position":"1400,500","size":"100,100"}
