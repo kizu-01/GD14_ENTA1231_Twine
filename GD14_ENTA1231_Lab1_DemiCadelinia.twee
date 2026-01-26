@@ -1,0 +1,329 @@
+:: StoryTitle
+GD14_ENTA1231_Lab1_DemiCadelinia
+
+
+:: StoryData
+{
+  "ifid": "3EC254FB-1A93-4F8B-81E5-4D7636AD0EFE",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "Event": "green",
+    "Outcome": "red",
+    "Outro": "purple",
+    "Intro": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: Brave [Outcome] {"position":"2000,500","size":"100,100"}
+(set: $thirdChoice to "Brave")\
+The duck walks forward without hesitation till the end. The mist parts quickly before it.
+
+“You do not hesitate…” the deity observes.
+
+Bojinki raises his hand, and a glowing, sun-shaped crystal made of radiant garnet, forms in his grasp.
+
+“Vivid like the sun, you act before doubt could take place whatever it may be.”
+
+He stated, as he guides the floating crystal towards you. 
+
+“Take this. It will remind you that boldness shapes the world.”
+
+The crystal floats toward the duck and lands into its feathers, pulsing actively with light like flames.
+
+The bridge soon dissolves beneath the duck’s feet, returning it safely to the summit.
+
+The duck stands once more before the glowing deity.
+
+“I have seen enough.”
+
+[[Hear the final judgment |End]]
+
+
+:: Careful [Outcome] {"position":"2000,300","size":"100,100"}
+(set: $thirdChoice to "Careful")\
+The duck takes slow, careful steps. The mist moves gently around it as the little one reaches the end.
+
+“You move with caution…” the deity observes.
+
+Bojinki then extends his hand. From his palm forms a small, feather-shaped charm made of clear quartz, glowing soft silver light.
+
+“Gentle like a feather, you handle things with respect on what you cannot yet understand.”
+
+He stated, as he guides the floating charm towards you.
+
+“Take this. It will remind you that moving slowly is not weakness.”
+
+The charm drifts down and rests against the duck’s chest, warm and reassuring.
+
+The bridge soon dissolves beneath the duck’s feet, returning it safely to the summit.
+The duck stands once more before the glowing deity.
+
+“I have seen enough.”
+
+[[Hear the final judgment |End]]
+
+
+:: Direct [Outcome] {"position":"1200,500","size":"100,100"}
+(set: $firstChoice to "Direct")\
+The duck makes a steady, quiet quack.
+
+The deity tilts its glowing form, feeling peculiar with the small creature's behavior.
+
+“You do not tremble, little one...” it says. “Interesting.”
+
+The wind slows down, as if pausing itself to listen further. The deity appears intrigued with the duck's calm nature.
+
+[[Continue listening |Event 2]]
+
+
+:: End [Outro] {"position":"2200,500","size":"100,100"}
+(set: $ending to "")\
+(if: $thirdChoice is "Scared")[	(set: $ending to "Dishonored")]\
+(else-if: $secondChoice is "Nothing" and ($thirdChoice is "Careful" or $thirdChoice is "Brave"))[	(set: $ending to "Obscured")]\
+(else-if: $secondChoice is "Gift" or $secondChoice is "Sentiment")[	(set: $ending to "Honored")]\
+(if: $ending is "Honored")[The light softens, bathing the summit in warm golden glow.
+
+"Your journey ends here," Bojinki says, his voice echoing like a gentle wind over the peak.
+
+(if: $firstChoice is "Question")["Cherish this message as you go along on your journey. Your cautious steps, timid yet sincere, guided the choices you made, proving that even careful hearts are seen and valued.]\
+(else-if: $firstChoice is "Direct")["Cherish this as you go along on your journey. Your steady and composed nature kept your path clear and allowed your offerings to shine with meaning.]\
+(else-if: $firstChoice is "Loud")["Cherish this as you go along on your journey. Your boldness left a daring yet mindful impression, and it has maintained its mark here.]\
+
+
+(if: $secondChoice is "Gift")[The feather you offered glows faintly in your memory, a testament of giving what you hold dear.]\
+(else-if: $secondChoice is "Sentiment")[The sincere feeling you shared warms the summit still, a reminder how thoughtfulness can be as powerful as any gift.]\
+
+
+(if: $thirdChoice is "Careful")[Thus, the charm of silver quartz rests on your chest, proof that patience and care are recognized."]\
+(else-if: $thirdChoice is "Brave")[Hence, the sun crystal you hold pulses like a fire's heartbeat, honoring your courage and decisive steps forward."]\
+
+
+"You have done well, little one. May all your future endeavors be brightened by the blessing I bestow upon you..." Bojinki parts with a smile on his face as his words linger in the air, his divine form then slowly dissolves into nothingness.
+
+Slowly, the duck turns and begins its long walk back down the mountain, carrying the weight of its journey into the world beyond.
+
+''The End | Honored Ending''
+]\
+(if: $ending is "Obscured")[The light dims slightly, the mountain quiet but unyielding.
+
+"Your journey ends here," Bojinki says, his voice carrying curiosity and restraint.
+
+(if: $firstChoice is "Question")["Bear this in mind as you proceed. Your small, hesitant steps shaped what little recognition you gained.]\
+(else-if: $firstChoice is "Direct")["Bear this in mind as you proceed. Your calm nature brought some clarity, yet it could not fully overcome the missed opportunities that lies ahead.]\
+(else-if: $firstChoice is "Loud")["Bear this in mind as you proceed. Even your boldness wasn't proven enough by the choices you did not fully commit to.]\
+
+
+(if: $secondChoice is "Gift")[While it's sincere of you offering your feather, it does not follow through with decisive action.]\
+(else-if: $secondChoice is "Sentiment")[The feeling you shared is a light filled with joy, yet without thorough courage to cross the path, it can't shine in its full potential.]\
+(else-if: $secondChoice is "Nothing")[Refusing to offer anything leaves your effort incomplete, a reminder that some acts are required to earn recognition.]\
+
+
+(if: $thirdChoice is "Careful")[In the end, you walked the bridge carefully without full commitment, and the mountain only grants it partial acknowledgement."]\
+(else-if: $thirdChoice is "Brave")[You eventually acted bravely, yet some hesitation of your choices kept you away from the final reward."]\
+
+
+"I see great potential in you to do the extraordinary, but potential alone is not enough. There is a season of growth you must complete before you are ready to achieve the greatness you were meant to reach..." As Bojinki laid out his final words, the deity slowly faded from existence.
+
+The duck feels the weight of choices partially made, the echo of both effort and hesitation pressing gently on its feathers.
+
+The little one begins to walk back down the mountain, carrying both achievement and uncertainty, aware that the mountain's full blessing remains unclaimed.
+
+''The End | Obscured Ending''
+]\
+(if: $ending is "Dishonored")[The summit grows cold and silent, a chill brushing against every feather.
+
+"Your journey ends here," Bojinki implies, a hint of disappointment in his words.
+
+(if: $firstChoice is "Question")["Let this be your guiding light on the path ahead. Even timid beginnings cannot excuse the lack of action at the final step.]\
+(else-if: $firstChoice is "Direct")["Let this be your guiding light on the path ahead. Calmness alone does not suffice when choices remain unmade.]\
+(else-if: $firstChoice is "Loud")["Let this be your guiding light on the path ahead. Boldness without follow-through achieves nothing but audacity if the path is left abandoned.]\
+
+
+(if: $secondChoice is "Nothing")[Offering nothing left no mark upon the mountain, only showing the lesser quality of one's heart for others.]\
+(else-if: $secondChoice is "Gift" or $secondChoice is "Sentiment")[Despite earlier offerings, your refusal to step forward negates any reward.]\
+
+
+(if: $thirdChoice is "Scared")[As a consequence, a bridge remained uncrossed leaves no blessing nor opportunity upon you. The weight of hesitation you portray now lingers as a silent reminder of what it could have been."]\
+
+
+"You cannot reach a new destination by remaining who you currently are. It is only through intentional change that you create the first steps necessary to open new doors for you to a better life..." As the sound of the deity's voice fade away, his presence gradually vanishes into thin air.
+
+The duck stands where it froze, staring at the glowing bridge that could have granted a blessing or wisdom.
+
+Finally, the little one turns slowly, waddling back down the mountain carrying lessons of lacking action, absence, and unrealized potential that will remain a shadow of the paths it never took.
+
+''The End | Dishonored Ending''
+]\
+
+
+
+:: Event 1 [Event] {"position":"1000,500","size":"100,100"}
+As the small figure arrived at the peak, a light suddenly welcomes the little one's eyes and fills the sky with life and clarity.
+
+Soon enough, a voice echoes across the atmosphere.
+
+“Who dares step foot into my blessed land?”
+
+The light shifts and reveals a small duck standing alone on its little feet.
+
+How will the duck respond back?
+
+[[Quack? (Worried) |Question]] 
+[[Quack. (Composed) |Direct]]
+[[Quack! (Proud) |Loud]]
+
+
+:: Event 2 [Event] {"position":"1400,500","size":"100,100"}
+(if: $firstChoice is "Question")[The deity is unamused at the small creature's earlier timidness.]\
+(if: $firstChoice is "Direct")[The deity seems tolerable with the small creature's earlier directness.]\
+(if: $firstChoice is "Loud")[The deity frowns at the small creature's earlier boldness.]\
+
+
+The being of light floats higher above the duck, the little one focusing its sight on the higher being.
+
+“Standing before you is the divine protector of this sacred mountain of utmost purity..."
+
+The light suddenly transforms into a majestic human form of a masculine figure, draped in fine pearl silk and bedazzled with striking diamonds.
+
+"I am Bojinki, the celestial guardian of this peak. This place I hold dear does not allow trespassers without offerings worthy of this land.”
+
+The ground trembles as it soon reveals a stone altar, sculpted in a form of an angel with its hands cupped together.
+
+“One must offer something of value… or face my judgment.”
+
+What would you, a mere duck, do to appease the mountain deity?
+
+[[Gift a sacrificial offering |Gift]]
+[[Offer a sentiment |Sentiment]]
+[[Don't offer anything |Nothing]]
+
+
+:: Event 3 [Event] {"position":"1800,500","size":"100,100"}
+The altar gradually sinks into the ground, the stone beneath shaking once more.
+
+“Very well,” the deity says. “One more test remains.”
+
+The mountain begins to shift.
+
+“Let's see how you walk your path.”
+
+The ground ahead cracks open, revealing a narrow glowing bridge. Mist swirls around it.
+
+“This path will reveal what you are,” the deity says.
+
+[[Tread carefully |Careful]]
+[[Move forward without hesitation |Brave]]
+[[Refuse to cross |Scared]]
+
+
+:: Gift [Outcome] {"position":"1600,300","size":"100,100"}
+(set: $secondChoice to "Gift")\
+The duck plucks one of its feathers and places it on the altar.
+
+The stone absorbs it, glowing softly as the offering vanishes.
+
+“You give what you can hold,” the deity says.
+
+The air hums quietly.
+
+The deity still seems to show no signs of leaving but is amused with the offering given. Regardless, the duck senses that it's still not the right time to leave for now.
+
+[[Step away from the altar |Event 3]]
+
+
+:: Loud [Outcome] {"position":"1200,700","size":"100,100"}
+(set: $firstChoice to "Loud")\
+The duck quacks loudly as it daringly steps one foot forward, holding its ground.
+The light flares brighter.
+
+“You dare speak loudly in this space?” the deity says. “Don't even think about challenging the mountain.”
+
+The mountain rumbles slightly as the deity speaks in an intimidating voice. The deity seems skeptical with the duck's shameless nature.
+
+[[Continue listening |Event 2]]
+
+
+:: Nothing [Outcome] {"position":"1600,700","size":"100,100"}
+(set: $secondChoice to "Nothing")\
+The duck steps back and offers nothing.
+
+The altar turned dark.
+
+“You give nothing at all…” the deity murmurs.
+
+The air feels tense. The atmosphere grows darker as the deity lifts the duck up in the air with unseen force.
+
+"You bear no shame at a place where you don't belong."
+
+Bojinki then drops the small creature roughly to the ground. The duck feels a slight pain from the short fall, but slowly stands back up, shaking the dust off from its feathers.
+
+The deity remains displeased and still doesn’t move from his position. In this regard, the little one feels that it's still not the right time to leave for now.
+
+[[Step away from the altar |Event 3]]
+
+
+:: Question [Outcome] {"position":"1200,300","size":"100,100"}
+(set: $firstChoice to "Question")\
+The duck lets out a small, uncertain quack.
+
+The glowing being looks down, examining the frightened creature.
+
+“Fear seems to cling onto you,” the deity says, leaning closer. “It looks like you don't expect to survive this encounter… but deal with the consequences.”
+
+The air grows heavier, as if the mountain presses itself within. The deity seems doubtful of the duck's meek nature.
+
+[[Continue listening |Event 2]]
+
+
+:: Scared [Outcome] {"position":"2000,700","size":"100,100"}
+(set: $thirdChoice to "Scared")\
+The duck is reluctant to cross the bridge, daunted of what lies on the other side.
+
+“Poor little life form…” the deity observes, disappointed by the duck’s hesitance.
+
+Bojinki lifts himself up and looks down on the small creature. 
+
+“Your sense of purpose, empty like your spirit. You stand before possibility yet choose to do nothing with it.”
+
+The deity lowers his hand. No object forms within his grasp and no light reaches for the duck.
+
+“I grant nothing to those who refuse to walk,” he says plainly. “For even failure requires motion.”
+
+The glowing bridge remains before the duck, waiting, as mist continues to float across the surface.
+
+The duck stays where it stands, untouched by blessing or burden, left only with the quiet weight of what might have been.
+
+“I have seen enough.”
+
+[[Hear the final judgment |End]]
+
+
+:: Sentiment [Outcome] {"position":"1600,500","size":"100,100"}
+(set: $secondChoice to "Sentiment")\
+The duck closes its eyes and offers a deep feeling from within.
+
+It shares its thoughts as the deity absorbs them. Nothing but sincere gratitude could be heard from the small creature. Words of honor, joy, and fulfillment, for being allowed to witness such divine presence and to stand upon its sacred ground.
+
+The altar glows brighter.
+
+“You give what you feel,” Bojinki says quietly.
+
+A gentle warmth spreads through the summit.
+
+The deity seems pleased with the offered sentiment, yet still shows no signs of leaving. Despite the outcome, the little one feels that it's still not the right time to leave for now.
+
+[[Step away from the altar |Event 3]]
+
+
+:: Start [Intro] {"position":"800,500","size":"100,100"}
+In the world of Panini, lies a vast area of mountain ranges, each characterized in their own unique shapes and colors.
+
+Among them stood the tallest one of all. Upon closer inspection, reveals a small silhouette journeying through a towering mountain path, its tiny feet waddling in wide strides on cold stone dust. 
+
+Cold wind brushes against its soft feathers as the path grows steeper with every step. But at last, the little creature reaches the summit.
+
+[[Begin exploring the mountain |Event 1]]
