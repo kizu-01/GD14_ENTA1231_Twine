@@ -75,7 +75,9 @@ The duck stands once more before the glowing deity.
 
 
 :: Credits [Outro] {"position":"2600,500","size":"100,100"}
-(text-size: 2)+(text-colour:blue)[''Credits'']
+---
+(align:"=><=")+(box:"X")[(text-size: 2.5)+(text-colour:blue)[''Credits'']]\
+---
 
 (text-colour:cyan)[(text-style:"bold","underline")[Duck Art (HTML CSS):]]
 https://codepen.io/aitchiss/pen/GRojLzx
@@ -88,6 +90,9 @@ https://www.pngarts.com/explore/64791
 
 (text-colour:cyan)[(text-style:"bold","underline")[Ground Platform:]]
 https://www.vecteezy.com/png/41714019-ai-generated-detailed-rocky-mountain-texture-showcasing-natural-geological-formations-on-transparent-background-stock-png
+
+
+---
 
 
 :: Direct [Outcome] {"position":"1200,500","size":"100,100"}
